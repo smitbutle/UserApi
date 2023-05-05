@@ -28,7 +28,7 @@ db.once("open", function () {
 const PORT =4000;
 
 const corsOptions = {
-    origin: 'https://apiuserdata.onrender.com/',
+    origin: 'https://apitest-bay.vercel.app/',
     credentials: true,            //access-control-allow-credentials:true
     optionSuccessStatus: 200
 }
