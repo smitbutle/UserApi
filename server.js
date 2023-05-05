@@ -28,7 +28,7 @@ db.once("open", function () {
 const PORT =4000;
 
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://apiuserdata.onrender.com/',
     credentials: true,            //access-control-allow-credentials:true
     optionSuccessStatus: 200
 }
